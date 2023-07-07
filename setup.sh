@@ -22,6 +22,6 @@ sudo service php7.4-fpm restart
 sudo wget --no-check-certificate https://raw.githubusercontent.com/bibicadotnet/Oracle-VM-Standard-A1-Flex-Webinoly-OneinStack/main/my.cnf -O /etc/mysql/my.cnf
 sudo service mysql restart
 
-sudo apt update && sudo apt upgrade -y
+sudo apt update -y
 sudo webinoly -verify
 sudo webinoly -info
