@@ -1,5 +1,5 @@
-# Webinoly PHP 7.4
-PHP v7.4.33, MariaDB v10.11.4, Nginx v1.24.0
+# Webinoly 
+
 1. Login root
 2. Update IOS and reboot the system
 ```shell
