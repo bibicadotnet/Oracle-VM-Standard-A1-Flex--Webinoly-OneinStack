@@ -19,7 +19,7 @@ sudo ufw disable
 sudo iptables -F
 
 sudo wget --no-check-certificate https://raw.githubusercontent.com/bibicadotnet/Oracle-VM-Standard-A1-Flex-Webinoly/main/php.ini -O /etc/php/7.4/fpm/php.ini
-sudo wget --no-check-certificate https://raw.githubusercontent.com/bibicadotnet/Oracle-VM-Standard-A1-Flex-Webinoly/main/www.conf -O /etc/php/7.4/fpm/pool.d/www.conf
+# sudo wget --no-check-certificate https://raw.githubusercontent.com/bibicadotnet/Oracle-VM-Standard-A1-Flex-Webinoly/main/www.conf -O /etc/php/7.4/fpm/pool.d/www.conf
 sudo service php7.4-fpm restart
 sudo wget --no-check-certificate https://raw.githubusercontent.com/bibicadotnet/Oracle-VM-Standard-A1-Flex-Webinoly/main/my.cnf -O /etc/mysql/my.cnf
 sudo service mysql restart
