@@ -4,7 +4,7 @@ locale-gen en_US.UTF-8
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
-sudo apt update -y
+sudo apt update && sudo apt upgrade -y
 sudo apt install zip -y
 sudo apt install unzip -y
 sudo apt install htop -y
